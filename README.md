@@ -7,7 +7,11 @@ Linked Lists can be used in two ways in C++, with 'forward_list' as a singly lin
 
 In order to make a linked list the type of list needs to be specified followed by the type of values the list will be holding the the name of the list suche as forward_list<int> singlyList;. In both forward_list and list there are the modifiers push_front() and pop_front(). push_front() puts whatever value stated in the function to the front of the list. pop_front() deletes the first value from the front of the list. list also has push_back() and pop_back() which are similar to the previous functions but they push and pop values from the end of the list.
   
-Both list and forward_list have insert_after and erase_after modifiers where either a new node is inserted in the list after a specified point or a node is erased from the list (such as singlyList.erase_after(singlyList.begin()) this will erase the second node in the list). There is also clear() which will erase all the nodes in the list.
+Both list and forward_list have insert_after and erase_after modifiers where either a new node is inserted in the list after a specified point or a node is erased from the list (such as singlyList.erase_after(singlyList.begin()); this will erase the second node in the list). There is also clear() which will erase all the nodes in the list.
+
+There are also operations that can be used with the lists. remove() removes nodes with a specified value (such as singlyList.remove(7); this will remove all nodes with the value of 7 from the list). There is also a remove_if() operator which will remove elements if they meet a specified condition.
+
+
 
 
 https://www.youtube.com/watch?v=o5wJkJJpKtM (How to Create a Linked List C++ Introduction to Linked Lists)
