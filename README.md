@@ -8,11 +8,11 @@ Linked Lists can be used in two ways in C++, with 'forward_list' as a singly lin
 
 
 
-https://www.youtube.com/watch?v=o5wJkJJpKtM
-https://www.youtube.com/watch?v=_jQhALI4ujg
-https://www.youtube.com/watch?v=njTh_OwMljA
-https://www.youtube.com/watch?v=pBrz9HmjFOs
-http://www.cplusplus.com/reference/forward_list/forward_list/
-http://www.cplusplus.com/reference/list/list/
-https://www.youtube.com/watch?v=KJWOm1bXUxM
-https://www.youtube.com/watch?v=k0pjD12bzP0
+https://www.youtube.com/watch?v=o5wJkJJpKtM (How to Create a Linked List C++ Introduction to Linked Lists)
+https://www.youtube.com/watch?v=_jQhALI4ujg (Linked Lists - Computerphile)
+https://www.youtube.com/watch?v=njTh_OwMljA (Data Structures: Linked Lists)
+https://www.youtube.com/watch?v=pBrz9HmjFOs (Data Structures: Introduction to Linked Lists)
+http://www.cplusplus.com/reference/forward_list/forward_list/ (C++ forward_list references)
+http://www.cplusplus.com/reference/list/list/ (C++ list references)
+https://www.youtube.com/watch?v=KJWOm1bXUxM (C++ Tutorial 17 : Sequence Containers)
+https://www.youtube.com/watch?v=k0pjD12bzP0 (What is a Doubly Linked List?)
