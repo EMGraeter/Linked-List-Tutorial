@@ -5,7 +5,7 @@ In this tutorial I will be teaching you about the data structure Linked List. A 
 
 Linked Lists can be used in two ways in C++, with 'forward_list' as a singly linked list or with 'list' as a doubly linked list. The difference between these two is that a singly linked list can only go from the beginning of the list and follow the nodes to the end of the list and a doubly linked list can start from the beginning and go to the end or start from the end and go to the beginning. In a singly linked list each node holds one pointer to the next node, but in a doubly linked list each node holds two pointers, one ot the next node and one to the previous node. If a node is at the end of the list then it points to null.
 
-
+In order to make a linked list the type of list needs to be specified followed by the type of values the list will be holding the the name of the list suche as forward_list<int> singlyList;. In both forward_list and list there are the functions push_front() and pop_front(). push_front() puts whatever value stated in the function to the front of the list. pop_front() deletes the first value from the front of the list. list also has push_back() and pop_back() which are similar to the previous functions but they push and pop values from the end of the list. 
 
 
 https://www.youtube.com/watch?v=o5wJkJJpKtM (How to Create a Linked List C++ Introduction to Linked Lists)
