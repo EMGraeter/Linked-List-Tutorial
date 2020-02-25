@@ -9,7 +9,11 @@ In order to make a linked list the type of list needs to be specified followed b
   
 Both list and forward_list have insert_after and erase_after modifiers where either a new node is inserted in the list after a specified point or a node is erased from the list (such as singlyList.erase_after(singlyList.begin()); this will erase the second node in the list). There is also clear() which will erase all the nodes in the list.
 
-There are also operations that can be used with the lists. remove() removes nodes with a specified value (such as singlyList.remove(7); this will remove all nodes with the value of 7 from the list). There is also a remove_if() operator which will remove elements if they meet a specified condition.
+There are also operations that can be used with the lists. remove() removes nodes with a specified value (such as singlyList.remove(7); this will remove all nodes with the value of 7 from the list). There is also a remove_if() operator which will remove elements if they meet a specified condition. There is another operator called unique() which will remove any nodes with a duplicate value from the list leaving only one. There is also merge() which merges two lists together but only if they are sorted first. Luckily there is also an opperator called sort() which puts the nodes in order from least to greatest. There is another operator called reverse() which reverses the order of everything in the list.
+
+Linked lists are used for many different things. One of the most common that is overlooked often is in web browsing. The back and forward buttons at the top left of the window are a great example of a linked list. It has pointers from when you started searching, following the links you cliked on to get to the current page you are on. Even if you go back there are still pointers to let you go forward in the list agian. The list doesn't know how long it will be or if you will go back to the middle of the list, click on a different link, and start a new part of the list.
+
+A linked list might have to start from one end of the list to find an element in the middle instead of just skipping straight to the element you want like in arrays or vectors but it is much more dynamic and easier to add elements to. With a vector or array you would have to shift all the elements down one to add something to the begining of the list whereas with a linked list you simply change some pointers.
 
 
 
